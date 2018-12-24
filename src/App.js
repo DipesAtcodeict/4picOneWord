@@ -26,8 +26,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1 class="title">4 Pics One Word</h1>
-        <div class="container">
+        <h1 className="title">4 Pics One Word</h1>
+        <div className="container">
           <div>
             <img
               src={`images/${this.state.i}.jpg`}
@@ -51,7 +51,7 @@ export default class App extends Component {
             />
           </div>
           <input
-            class="input"
+            className="input"
             placeholder={`guess the ${this.state.answer.length} letter word`}
             onChange={this.handleValue}
           />
